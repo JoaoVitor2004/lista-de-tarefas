@@ -1,0 +1,34 @@
+.container-resultado {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.input-tarefa {
+  background: none;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 12px 25px;
+  outline: none;
+  margin-right: 20px;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.btn-tarefa {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.btn-tarefa-position {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  width: 150px;
+  border-radius: 5px;
+}
