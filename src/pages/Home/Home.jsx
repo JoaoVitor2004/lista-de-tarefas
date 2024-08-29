@@ -1,9 +1,6 @@
-import { useState } from 'react'
-import { useRef } from 'react'
+import { useState, useRef } from 'react'
 import { v4 } from 'uuid'
 import './Home.css'
-import Logo from '../../assets/react.svg'
-import Menu from '../Menu/Menu'
 
 function App() {
 
@@ -27,7 +24,6 @@ function App() {
   return (
 
     <div className='App'>
-      <Menu />
       <h1>Todo list</h1>
       <input className='input-tarefa' type="text" ref={inputRef} placeholder='Digite uma tarefa' />
       <button onClick={adicionarTarefa}>Adicionar</button>

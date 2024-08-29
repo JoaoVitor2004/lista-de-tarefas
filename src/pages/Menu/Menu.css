@@ -1,8 +1,0 @@
-.navegacao {
-    display: flex;
-    gap: 30px;
-    position: absolute;
-    top: 40px;
-    left: 200px;
-    transform: translateX(-50%);
-}
