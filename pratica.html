@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript básico</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="text">Título</h1>
+
+    <input type="text" id="meuInput" onchange="mostrarMensagem()">
+    <p id="mensagem">Valor inicial</p>
+    <script defer>
+
+        function mostrarMensagem() {
+            const input = document.getElementById('meuInput');
+            const mensagem = document.getElementById('mensagem');
+            mensagem.innerHTML = 'O novo valor é: ' + input.value;
+        }
+
+        const element = document.getElementById('text')
+
+        let numero = 24
+        let value = 'Enter'
+
+        numero = value === 'Enter' ? `Valor: ${numero}` : 'Valor incorreto'
+
+        element.innerHTML = numero
+
+
+        let idade = 17
+
+        function verificar() {
+            if (idade >= 18) {
+                console.log('Você é maior de idade')
+            } else {
+                console.log('Você é menor de idade')
+            }
+        }
+        verificar()
+
+        idade = idade >= 18 ? 'Maior de idade' : 'Menor de idade'
+        console.log(idade)
+
+    </script>
+</body>
+
+</html>
