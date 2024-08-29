@@ -6,7 +6,7 @@ Projeto onde o usuario vai criando e removendo dinamicamente tarefas
 
 ### ⚙️ Guia de instalação
 
-Rodar este comando no terminal <code>npm run dev</code>
+Acessar o projeto apartir deste <a href='https://joaovitor-lista-de-tarefas.vercel.app/'>endereço</a>
 
 ### ⚒️ Tecnologias utilizadas
 
