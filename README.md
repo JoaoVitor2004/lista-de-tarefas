@@ -1,14 +1,16 @@
-![capa - lista de tarefas](https://github.com/user-attachments/assets/8612fa4d-dac4-4ccc-a9e6-8cf1e98d8c47)
+# Todo list
+
+![lista-de-tarefas](https://github.com/user-attachments/assets/352c74b3-9246-4063-b6bf-f89719bff223)
 
 ## 🎯 Introdução
 
-Projeto onde o usuario vai criando e removendo dinamicamente tarefas
+Desenvolvido uma lista de tarefas estando responsivo a diversos dispositivos, ele possui um input para digitar uma tarefa e um botão para adicionar com base no valor do input, assim que é adicionado uma tarefa abaixo tem um botão para remover.
 
-### ⚙️ Guia de instalação
+## ⚙️ Acessar o projeto
 
-Acessar o projeto apartir deste <a href='https://joaovitor-lista-de-tarefas.vercel.app/'>endereço</a>
+ir direto na barra de endereço do navegador acima e colocar o seguinte endereço <code><a href='https://joaovitor-lista-de-tarefas.vercel.app/'>https://joaovitor-lista-de-tarefas.vercel.app/</a></code>
 
-### ⚒️ Tecnologias utilizadas
+## ⚒️ Tecnologias utilizadas
 
 <div>
   <img src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white' alt='logo do HTML'/>
@@ -17,11 +19,10 @@ Acessar o projeto apartir deste <a href='https://joaovitor-lista-de-tarefas.verc
   <img src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB' alt='logo do REACT'/>
 </div>
 
-### 👨‍💻 Autores / Colaboradores
+## 👨‍💻 Autores / Colaboradores
 
-- **João Vitor** - Frontend do projeto - [João Vitor](https://linkedin.com/in/joão-vitor-souzaa)
+- **João Vitor** - frontend do projeto - [João Vitor](https://www.linkedin.com/in/jo%C3%A3o-vitor-souza-28297632a)
 
-### 📃 Linceça
+## 📃 Licensa
 
-Este projeto está sob a licença [MIT]()
-
+Este projeto está sob a licensa [MIT](https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT)
